@@ -12,6 +12,15 @@ This project demonstrates a **complete end-to-end Machine Learning deployment pi
 It combines **deep learning (LSTM)**, **statistical monitoring**, **operational rules**, and **real-time visualization** to simulate an intelligent cold storage monitoring system.
 
 ---
+# 🌡️ Temperature Anomaly Detection Dashboard
+
+A real-time Streamlit dashboard for monitoring and detecting temperature anomalies in cold storage facilities using hybrid threshold and machine learning models.
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://temperatureanomalydetection-gzwboeq5h9ytuysburuqpz.streamlit.app/)
+
+🌐 **Live Demo:** [Launch the Dashboard](https://temperatureanomalydetection-gzwboeq5h9ytuysburuqpz.streamlit.app/)
+
+---
 
 ## 🚀 Project Overview
 
