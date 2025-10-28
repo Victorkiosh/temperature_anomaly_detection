@@ -1,0 +1,3 @@
+pandas
+numpy
+sqlite3   # (built-in in Python, so no pip install)
