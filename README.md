@@ -1,4 +1,12 @@
 # 🧊 Cold Storage Temperature Anomaly Detection System
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-ML%20Service-green?logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-Real--time%20Dashboard-ff4b4b?logo=streamlit)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ed?logo=docker)
+![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey?logo=sqlite)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 
 This project demonstrates a **complete end-to-end Machine Learning deployment pipeline** for real-time temperature anomaly detection in a cold storage environment.  
 It combines **deep learning (LSTM)**, **statistical monitoring**, **operational rules**, and **real-time visualization** to simulate an intelligent cold storage monitoring system.
