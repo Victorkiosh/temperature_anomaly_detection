@@ -50,7 +50,7 @@ The system is fully containerized for reproducibility and ease of deployment.
 --- 
 ### 🔧 Dockerfile Structure
 
-![Project Banner Placeholder](visuals/docker_container.jpg)
+![Project Banner Placeholder](visuals/container.png)
 
 --- 
 
