@@ -3,4 +3,9 @@ uvicorn
 tensorflow
 joblib
 numpy
-pydantic
+pandas
+streamlit
+requests
+sqlite-utils
+streamlit-autorefresh
+plotly
