@@ -10,8 +10,8 @@ The system simulates real-time temperature readings, performs predictions using 
 deployment/
 │
 ├── simulate_stream.py      # Simulates incoming temperature sensor data
-├── prediction_service.py   # Loads model and performs real-time predictions
-├── viewdb.py               # Streamlit dashboard visualizing predictions
+├── inference.py   # Loads model and performs real-time predictions
+├── dashboard.py               # Streamlit dashboard visualizing predictions
 ├── requirements.txt        # Dependencies for deployment
 ├── Dockerfile              # Containerization setup for deployment
 └── README.md               # You are here
@@ -23,10 +23,12 @@ deployment/
 
 Below is the high-level workflow that governs the system.
 
+---
 ### 🔄 Workflow Overview
 
 ![Project Banner Placeholder](visuals/deployment.png)
 
+---
 > This diagram will illustrate the data flow from sensor simulation → prediction → database → dashboard.
 
 **Process Flow:**
@@ -45,9 +47,12 @@ Below is the high-level workflow that governs the system.
 
 The system is fully containerized for reproducibility and ease of deployment.
 
+--- 
 ### 🔧 Dockerfile Structure
 
-![Project Banner Placeholder](visuals/container.png)
+![Project Banner Placeholder](visuals/docker_container.jpg)
+
+--- 
 
 **Example Dockerfile:**
 ```dockerfile
@@ -68,7 +73,7 @@ COPY . .
 EXPOSE 8501
 
 # Default command
-CMD ["streamlit", "run", "viewdb.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "dashboard.py", "--server.port=8501", "--server.address=0.0.0.0"]
 ```
 
 🚀 Running the System
