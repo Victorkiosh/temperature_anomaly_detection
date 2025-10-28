@@ -21,7 +21,7 @@ from streamlit_autorefresh import st_autorefresh
 from datetime import datetime
 
 # === CONFIG ===
-DB_PATH = "deployment/temperature_data.db"
+DB_PATH = "temperature_data.db"
 REFRESH_INTERVAL_MS = 5000  # Auto-refresh every 5 seconds
 MAX_RECORDS = 200  # How many recent records to display
 
