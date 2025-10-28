@@ -24,7 +24,8 @@ deployment/
 Below is the high-level workflow that governs the system.
 
 ### 🔄 Workflow Overview
-*(Placeholder for Visual 1 — “System Workflow Diagram”)*
+![Project Banner Placeholder](visuals/deployment.png)
+
 > This diagram will illustrate the data flow from sensor simulation → prediction → database → dashboard.
 
 **Process Flow:**
@@ -44,7 +45,7 @@ Below is the high-level workflow that governs the system.
 The system is fully containerized for reproducibility and ease of deployment.
 
 ### 🔧 Dockerfile Structure
-*(Placeholder for Visual 2 — “Container Architecture Diagram”)*
+![Project Banner Placeholder](visuals/container.png)
 
 **Example Dockerfile:**
 ```dockerfile
@@ -66,7 +67,7 @@ EXPOSE 8501
 
 # Default command
 CMD ["streamlit", "run", "viewdb.py", "--server.port=8501", "--server.address=0.0.0.0"]
-
+```
 
 🚀 Running the System
 
@@ -75,34 +76,42 @@ You can run the system locally or via Docker.
 🧩 Local Setup
 
 1. Create a virtual environment:
-```
+```bash
 python -m venv venv
 source venv/bin/activate     # Linux/Mac
 venv\Scripts\activate        # Windows
 ```
 
 2. Install dependencies:
-``` pip install -r requirements.txt ```
+```bash
+pip install -r requirements.txt
+```
 
 3. Run the simulation and prediction services:
-``` python simulate_stream.py ```
+```bash
+python simulate_stream.py
+```
 
 4. Launch the dashboard:
 
-``` streamlit run dashboard.py ```
+```bash
+streamlit run dashboard.py
+```
 
 🐋 Run with Docker
 1. Build the image:
-``` docker build -t temperature-anomaly-dashboard ```
-
+```bash
+docker build -t temperature-anomaly-dashboard .
+```
 
 2. Run the container:
 
-``` docker run -p 8501:8501 temperature-anomaly-dashboard ```
-
+```bash
+docker run -p 8501:8501 temperature-anomaly-dashboard
+```
 
 3. Access the dashboard at:
-👉 http://localhost:8501
+👉 http://192.168.2.101:8501
 
 🧭 Future Enhancements
 
@@ -122,3 +131,4 @@ venv\Scripts\activate        # Windows
 Victor Kioko
 Data Science & Analytics | Python | Power BI | SQL
 GitHub: github.com/Victorkiosh
+
