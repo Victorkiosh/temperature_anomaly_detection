@@ -165,5 +165,7 @@ a proof-of-concept for **AI-powered cold storage monitoring**.
 ## 👨‍💻 Author
 
 **Victor Kioko**
-Data Scientist
-[GitHub](https://github.com/Victorkiosh)
+
+Data Science & Analytics | Python | Power BI | SQL
+
+[LinkedIn](www.linkedin.com/in/mutuavictor)

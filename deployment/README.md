@@ -6,7 +6,7 @@ The system simulates real-time temperature readings, performs predictions using 
 ---
 
 ## 📂 Folder Structure
-
+```text
 deployment/
 │
 ├── simulate_stream.py      # Simulates incoming temperature sensor data
@@ -15,7 +15,7 @@ deployment/
 ├── requirements.txt        # Dependencies for deployment
 ├── Dockerfile              # Containerization setup for deployment
 └── README.md               # You are here
-
+```
 
 ---
 
@@ -24,6 +24,7 @@ deployment/
 Below is the high-level workflow that governs the system.
 
 ### 🔄 Workflow Overview
+
 ![Project Banner Placeholder](visuals/deployment.png)
 
 > This diagram will illustrate the data flow from sensor simulation → prediction → database → dashboard.
@@ -45,6 +46,7 @@ Below is the high-level workflow that governs the system.
 The system is fully containerized for reproducibility and ease of deployment.
 
 ### 🔧 Dockerfile Structure
+
 ![Project Banner Placeholder](visuals/container.png)
 
 **Example Dockerfile:**
@@ -113,7 +115,8 @@ docker run -p 8501:8501 temperature-anomaly-dashboard
 3. Access the dashboard at:
 👉 http://192.168.2.101:8501
 
-🧭 Future Enhancements
+---
+#### 🧭 Future Enhancements
 
 🔌 Connect to real-time IoT data sources (e.g., MQTT, Kafka)
 
@@ -125,10 +128,12 @@ docker run -p 8501:8501 temperature-anomaly-dashboard
 
 ☁️ Deploy on AWS/GCP/Azure using CI/CD workflows
 
-
+---
 🧑‍💻 Author
 
 Victor Kioko
+
 Data Science & Analytics | Python | Power BI | SQL
-GitHub: github.com/Victorkiosh
+
+[LinkedIn](www.linkedin.com/in/mutuavictor)
 
