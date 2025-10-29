@@ -1,6 +1,6 @@
 fastapi
 uvicorn
-tensorflow
+tensorflow-cpu
 joblib
 numpy
 pandas
@@ -9,3 +9,4 @@ requests
 sqlite-utils
 streamlit-autorefresh
 plotly
+scikit-learn
