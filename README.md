@@ -1,26 +1,36 @@
 # 🧊 Cold Storage Temperature Anomaly Detection System
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-ML%20Service-green?logo=fastapi)
-![Streamlit](https://img.shields.io/badge/Streamlit-Real--time%20Dashboard-ff4b4b?logo=streamlit)
+![FastAPI](https://img.shields.io/badge/FastAPI-API%20Service-009688?logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-ff4b4b?logo=streamlit)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ed?logo=docker)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey?logo=sqlite)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-
 
 This project demonstrates a **complete end-to-end Machine Learning deployment pipeline** for real-time temperature anomaly detection in a cold storage environment.  
 It combines **deep learning (LSTM)**, **statistical monitoring**, **operational rules**, and **real-time visualization** to simulate an intelligent cold storage monitoring system.
 
 ---
-# 🌡️ Temperature Anomaly Detection Dashboard
 
-A real-time Streamlit dashboard for monitoring and detecting temperature anomalies in cold storage facilities using hybrid threshold and machine learning models.
+## 🌡️ Live Demos
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://temperatureanomalydetection-gzwboeq5h9ytuysburuqpz.streamlit.app/)
+### 🔹 Streamlit Dashboard  
+A real-time Streamlit dashboard for monitoring and detecting temperature anomalies in cold storage facilities using hybrid threshold and ML models.
 
-🌐 **Live Demo:** [Launch the Dashboard](https://temperatureanomalydetection-gzwboeq5h9ytuysburuqpz.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://temperatureanomalydetection-gzwboeq5h9ytuysburuqpz.streamlit.app/)  
+🌐 **Dashboard:** [Launch Here](https://temperatureanomalydetection-gzwboeq5h9ytuysburuqpz.streamlit.app/)
 
 ---
+
+### 🔹 FastAPI Backend  
+The deployed API service handles model inference and integrates seamlessly with the Streamlit dashboard.
+
+[![FastAPI Docs](https://img.shields.io/badge/OpenAPI%20Docs-FastAPI-009688?logo=swagger)](https://temperature-anomaly-detection-1.onrender.com/docs)  
+🌐 **API Endpoint:** [Explore the FastAPI Service](https://temperature-anomaly-detection-1.onrender.com/docs)
+
+---
+
 
 ## 🚀 Project Overview
 
